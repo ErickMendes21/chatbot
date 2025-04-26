@@ -1,0 +1,27 @@
+.card{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Card-content{
+    margin: 15px;
+}
+
+.input, button{
+    margin: 15px;
+}
+
+.start{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pergunta{
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.button{
+    padding: 7px;
+    border-radius: 5px;
+}
