@@ -22,7 +22,7 @@ const Input = ({ value, onChange, onKeyDown, placeholder, className = '' }) => (
   <input
     value={value}
     onChange={onChange}
-    // onKeyDown={onKeyDown}
+    onKeyDown={onKeyDown}
     placeholder={placeholder}
     className={`px-3 py-2 outline-none w-full ${className} input`}
   />
