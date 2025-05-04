@@ -2,14 +2,6 @@ Chat Fã FURIA – Documentação
 .Objetivo:
 Este é um chatbot voltado para fãs da equipe de CS:GO da FURIA. O bot responde dúvidas sobre a equipe, jogos, lineup, curiosidades e muito mais, com linguagem empolgada e foco total no universo FURIA.
 
-.Estrutura do Projeto:
-src/
-├── Bot.jsx           # Componente principal do chatbot
-├── Bot.css           # Estilos customizados do chat
-├── components/       # Componentes reutilizáveis (Input, Button, Card, etc.)
-├── .env              # Armazena variáveis de ambiente (como a chave da API)
-└── index.js          # Ponto de entrada da aplicação React
- Como Funciona
 1. Inicialização do chat
 const [messages, setMessages] = useState([
   { from: 'bot', text: 'Fala, fã da FURIA! Em que posso te ajudar hoje?' }
